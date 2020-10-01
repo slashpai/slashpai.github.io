@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Pai</title>
+    <link>https://slashpai.github.io/categories/</link>
+    <description>Recent content in Categories on Pai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, All rights reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>kubernetes</title>
+      <link>https://slashpai.github.io/categories/kubernetes/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/categories/kubernetes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tips and tricks</title>
+      <link>https://slashpai.github.io/categories/tips-and-tricks/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/categories/tips-and-tricks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guide</title>
+      <link>https://slashpai.github.io/categories/guide/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/categories/guide/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programming</title>
+      <link>https://slashpai.github.io/categories/programming/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/categories/programming/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

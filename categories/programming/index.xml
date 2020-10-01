@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on Pai</title>
+    <link>https://slashpai.github.io/categories/programming/</link>
+    <description>Recent content in programming on Pai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, All rights reserved.</copyright>
+    <lastBuildDate>Wed, 30 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Getting Started with Programming</title>
+      <link>https://slashpai.github.io/post/getting_started_with_programming/</link>
+      <pubDate>Wed, 30 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/post/getting_started_with_programming/</guid>
+      <description>&lt;p&gt;Read on if you are looking to get started with programming but do not know where to start and how to work your way through it.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

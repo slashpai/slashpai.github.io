@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kubernetes on Pai</title>
+    <link>https://slashpai.github.io/tags/kubernetes/</link>
+    <description>Recent content in Kubernetes on Pai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, All rights reserved.</copyright>
+    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/tags/kubernetes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Quickly creating kubernetes manifest files</title>
+      <link>https://slashpai.github.io/post/quickly_creating_kubernetes_manifest_files/</link>
+      <pubDate>Thu, 01 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/post/quickly_creating_kubernetes_manifest_files/</guid>
+      <description>When someone is just starting with kubernetes, writing manifest files can be a bit difficult. In this post I will try to give some tips in writing manifest files easily.
+Pods Use the generator to create pods. Verify if the given entries are syntactically correct by doing a dry run.
+1kubectl run --generator=run-pod/v1 &amp;lt;pod name&amp;gt; --image &amp;lt;image to use&amp;gt; --dry-run Save the pod definition to a yaml file for future changes as well as reference</description>
+    </item>
+    
+  </channel>
+</rss>
