@@ -1,0 +1,26 @@
+[[main]]
+  name = "Home"
+  url = "/"
+  weight = -110
+
+# Submenus are done this way: parent -> identifier
+[[main]]
+  name = "Links"
+  identifier = "Links"
+  weight = -108
+[[main]] 
+  parent = "Links"
+  name = "Stackoverflow Profile"
+  url = "https://stackoverflow.com/users/3256048/slashpai"
+[[main]] 
+  parent = "Links"
+  name = "Dev Profile"
+  url = "https://dev.to/slashpai"
+[[main]]
+  parent = "Links"
+  name = "Medium Profile"
+  url = "https://medium.com/@slashpai"
+[[main]]
+  name = "About"
+  url = "/about/"
+  weight = -107
