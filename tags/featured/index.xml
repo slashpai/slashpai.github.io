@@ -6,7 +6,17 @@
     <description>Recent content in featured on Pai</description>
     <generator>Hugo -- gohugo.io</generator>
     <copyright>Copyright © 2020, All rights reserved.</copyright>
-    <lastBuildDate>Thu, 01 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/tags/featured/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Ansible -&gt; What, Why and System Setup</title>
+      <link>https://slashpai.github.io/post/towards_ansible_why_what_system_setup/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/post/towards_ansible_why_what_system_setup/</guid>
+      <description>What is Ansible RedHat Ansible is an open source configuration management, application deployment and orchestration tool enabling Infrastructure as Code. It provides us enormous options to automate our Infrastructure. Unlike its alternatives Chef, Puppet it require minimum coding effort which is a great news for people without programming experience. It will help anyone to automate their tasks easily if they are familiar with YAML.
+Why Ansible Imagine that you want to install and configure a web app on a node.</description>
+    </item>
+    
     <item>
       <title>Quickly creating kubernetes manifest files</title>
       <link>https://slashpai.github.io/post/quickly_creating_kubernetes_manifest_files/</link>
