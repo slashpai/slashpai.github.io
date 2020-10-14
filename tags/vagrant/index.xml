@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>vagrant on Pai</title>
+    <link>https://slashpai.github.io/tags/vagrant/</link>
+    <description>Recent content in vagrant on Pai</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2020, All rights reserved.</copyright>
+    <lastBuildDate>Wed, 14 Oct 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://slashpai.github.io/tags/vagrant/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Towards Ansible -&gt; Test Machine Setup and Tool Familiarization</title>
+      <link>https://slashpai.github.io/post/towards_ansible_test_machines_tool_familiarization/</link>
+      <pubDate>Wed, 14 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://slashpai.github.io/post/towards_ansible_test_machines_tool_familiarization/</guid>
+      <description>In last post, we learnt what is ansible and why we need tool like ansible. We also setup the development environment. In this post we will setup a test machine using vagrant and get familiarized with ansible config and a few commands.
+Verify VirtualBox and Vagrant Installation Verify virtualbox and vagrant installation
+1slashpai@pai  ~/vagrant/ansible  (⎈ |kind-pai:default) VBoxManage --version 26.1.4r136177 3slashpai@pai  ~/vagrant/ansible  (⎈ |kind-pai:default) vagrant --version 4Vagrant 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -50,7 +50,7 @@
   
     
   
-  <body data-code="7" data-lines="false" id="documentTop">
+  <body data-code="20" data-lines="false" id="documentTop">
 
 <header class = 'nav_header' >
   <nav class = 'nav'>
@@ -159,14 +159,15 @@
 </div>
 
     
-    <h2 id="what-is-ansible">What is Ansible</h2>
+    <p>This will be a blog series to learn Ansible automation tool from scratch. There are no pre-requisite as such other than basic linux administration skills. This post is first one in the ansible series</p>
+<h2 id="what-is-ansible">What is Ansible</h2>
 <p>RedHat Ansible is an open source configuration management, application deployment and orchestration tool enabling Infrastructure as Code. It provides us enormous options to automate our Infrastructure. Unlike its alternatives Chef, Puppet it require minimum coding effort which is a great news for people without programming experience. It will help anyone to automate their tasks easily if they are familiar with YAML.</p>
 <h2 id="why-ansible">Why Ansible</h2>
 <p>Imagine that you want to install and configure a web app on a node. Its very easy right? You just need to install the dependencies for the web app and then start your app on that node. Then you decided that you want to scale your application by having more instances. You need to repeat the same steps on those nodes. What if this is on a live environment where you need to do this configuration quickly? This is where a configuration management helps you. Once you have stored your configuration as a code, all you need to do is apply this on a new node to provision that node with required configs. Ansible does this in clean way with minimum coding and without much overhead.</p>
 <p>Forget about Infrastructure Automation for a while, consider a personal scenario where you purchased a new laptop and you need to configure this machine from scratch. Think about the changes you&rsquo;ve made to your laptop since first time you booted it up. Now imagine making similar changes to 10, 100 or 1000&rsquo;s more computers in your organization. Configuration management tools are what makes these change rollouts easier by enforcing standards.</p>
 <p>Ansible is a push based architecture where you have to initiate the configuration required from a control node, which will be mostly your workstation which has Ansible installed. There is no need to install an agent or any other binary on remote node to use Ansible. Hence its very easy to use Ansible within a short span of time once you have a control node which can access the remote nodes using ssh.</p>
 <h2 id="setup-your-development-environment">Setup your development environment</h2>
-<p><strong>Disclaimer: These are purely my recommendations. You can still work on Ansible skipping some of these.</strong></p>
+<p><strong>Disclaimer: These are purely my recommendations and what I learnt from other developers. You can still work on Ansible skipping some of these.</strong></p>
 <ul>
 <li>Install <a href="https://github.com/pyenv/pyenv">pyenv</a> to manage and install python versions</li>
 <li>Install stable version of python 3.5 or above using pyenv. Its not recommended to use system Python since in case if you did any mistake unknowingly it can leave your system in inconsistent state</li>
@@ -189,7 +190,7 @@
 <li>Install <a href="https://github.com/sharkdp/bat">bat</a>. This is again optional but quite useful tool to view config files etc</li>
 <li>Create a github account if not already there, if you wish to store your code over there</li>
 </ul>
-<p>In next post we will see how to create test machines using virtualbox and vagrant and use ansible commands on it</p>
+<p>In next post we will see how to create test machines using vagrant and get familiarize with ansible.</p>
 
     
       
@@ -206,6 +207,10 @@
     <h2 class="mt-4">Featured Posts</h2>
     <ul>
     
+      <li>
+        <a href="https://slashpai.github.io/post/towards_ansible_test_machines_tool_familiarization/" class="nav-link">Towards Ansible -&gt; Test Machine Setup and Tool Familiarization</a>
+      </li>
+    
     
       <li>
         <a href="https://slashpai.github.io/post/quickly_creating_kubernetes_manifest_files/" class="nav-link">Quickly creating kubernetes manifest files</a>
@@ -220,6 +225,9 @@
     <ul class="flex-column">
       
       <li>
+        <a href="https://slashpai.github.io/post/towards_ansible_test_machines_tool_familiarization/" class="nav-link">Towards Ansible -&gt; Test Machine Setup and Tool Familiarization</a>
+      </li>
+      <li>
         <a href="https://slashpai.github.io/post/quickly_creating_kubernetes_manifest_files/" class="nav-link">Quickly creating kubernetes manifest files</a>
       </li>
       <li>
@@ -231,18 +239,13 @@
     <div>
       <h2 class="mt-4 taxonomy" id="categories-section">Categories</h2>
       <nav class="tags_nav">
-        <a href='https://slashpai.github.io/categories/ansible/' class=" post_tag button button_translucent">
-          ANSIBLE
-          <span class='button_tally'>1</span>
+        <a href='https://slashpai.github.io/categories/infratructure-as-code/' class=" post_tag button button_translucent">
+          INFRATRUCTURE-AS-CODE
+          <span class='button_tally'>2</span>
         </a>
         
         <a href='https://slashpai.github.io/categories/guide/' class=" post_tag button button_translucent">
           GUIDE
-          <span class='button_tally'>1</span>
-        </a>
-        
-        <a href='https://slashpai.github.io/categories/infratructure-as-code/' class=" post_tag button button_translucent">
-          INFRATRUCTURE-AS-CODE
           <span class='button_tally'>1</span>
         </a>
         
@@ -272,7 +275,7 @@
       <nav class="tags_nav">
         <a href='https://slashpai.github.io/series/ansible/' class=" post_tag button button_translucent">
           ANSIBLE
-          <span class='button_tally'>1</span>
+          <span class='button_tally'>2</span>
         </a>
         
         <a href='https://slashpai.github.io/series/kubernetes/' class=" post_tag button button_translucent">
@@ -296,12 +299,12 @@
       <nav class="tags_nav">
         <a href='https://slashpai.github.io/tags/featured/' class=" post_tag button button_translucent">
           FEATURED
-          <span class='button_tally'>3</span>
+          <span class='button_tally'>4</span>
         </a>
         
         <a href='https://slashpai.github.io/tags/ansible/' class=" post_tag button button_translucent">
           ANSIBLE
-          <span class='button_tally'>1</span>
+          <span class='button_tally'>2</span>
         </a>
         
         <a href='https://slashpai.github.io/tags/kubernetes/' class=" post_tag button button_translucent">
@@ -311,6 +314,11 @@
         
         <a href='https://slashpai.github.io/tags/programming/' class=" post_tag button button_translucent">
           PROGRAMMING
+          <span class='button_tally'>1</span>
+        </a>
+        
+        <a href='https://slashpai.github.io/tags/vagrant/' class=" post_tag button button_translucent">
+          VAGRANT
           <span class='button_tally'>1</span>
         </a>
         
