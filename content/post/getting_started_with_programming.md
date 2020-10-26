@@ -5,12 +5,11 @@ categories:
 - guide
 date: "2020-09-30"
 description: Read on if you are looking to get started with programming but do not know where to start and how to work your way through it.
-featured: true
+featured: false
 series:
 - Programming
 tags:
 - programming
-- featured
 thumbnail: /img/adi-goldstein-mDinBvq1Sfg-unsplash.jpg
 title: Getting Started with Programming
 ---
